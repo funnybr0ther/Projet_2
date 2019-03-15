@@ -1,10 +1,10 @@
-PWD /home/guillaume/Documents/Q2/Projet/Labo 4
+PWD /home/guillaume/Documents/Q2/Projet 2/Labo 4
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.tex
-OUTPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.log
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.tex
+OUTPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -53,9 +53,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.aux
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.aux
-OUTPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.aux
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.aux
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.aux
+OUTPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -107,15 +107,18 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
-OUTPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.pdf
+OUTPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/LR.png
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/LR.png
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/LR.png
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/RM.png
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/RM.png
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/RM.png
-INPUT /home/guillaume/Documents/Q2/Projet/Labo 4/Labo.aux
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/LR.png
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/LR.png
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/LR.png
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/RM.png
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/RM.png
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/RM.png
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/oscillo_1.jpg
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/oscillo_1.jpg
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/oscillo_1.jpg
+INPUT /home/guillaume/Documents/Q2/Projet 2/Labo 4/Labo.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb

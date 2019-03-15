@@ -61,7 +61,7 @@ $I(t) = \frac{V_{s}cos(\omega t)}{\sqrt{R^{2} + X_{L}^{2}}}$. Afin de mesurer ce
 bornes de la résistance et en utilisant la loi d'Ohm nous pouvons déterminer $I$. A partir de cette valeur (maximale) de
 $I$, nous déterminons la valeur de $L$ par la relation 
 \begin{equation}
-    L = \frac{\sqrt{\frac{V_{s}}{I}^2 - R^2}}{\omega}
+    L = \frac{\sqrt{(\frac{V_{s}}{I})^2 - R^2}}{\omega}
 \end{equation}
 \subsubsection{Deuxième Circuit: Inductance Mutuelle}
 \begin{figure}[h]
@@ -83,8 +83,20 @@ $V_{L_{2}} = L_{2}\omega I_{2}j - M\omega I_{2}j$ ainsi que $I_{1} = I_{2}$. Cel
 La réalisation du circuit était évidemment aisée, et de même pour la prise des mesures. Nous avons mesuré une 
 tension  de 5 Volts aux bornes de la résistance, avec une alimentation à 100 kHz, ce qui nous a beaucoup étonnés, et en utilisant l'équation (1)
 nous avons une inductance de 0.
-il est facile de voir qu'utiliser une résistance de 10 k$\Omega$ ne permet pas d'être très précis. Nous avons réessayé avec
-une résistance de 10 $\Omega$ et une fréquence de 100 Khz. Nous avons alors mesuré une tension de 2.5 V aux bornes
-de la résistance. Cela nous indique un courant de 0.25 A, nous donnant par l'équation (1) une inductance de 27.56 $\mu$H
-
+Il est facile de voir qu'utiliser une résistance de 10 k$\Omega$ ne permet pas d'être très précis. Nous avons réessayé avec
+une résistance de 10 $\Omega$ et une fréquence de 100 kHz. Nous avons alors mesuré une tension de 2 V aux bornes
+de la résistance. Cela nous indique un courant de 0.2 A, nous donnant par l'équation (1) une inductance de 36.5 $\mu$H
+Les inductances sont censées être d'une valeur de 27 $\mu H$ donc nos mesures pour cette inductance ont visiblement une légère erreur, ou bien les inductances
+ont un léger défaut de frabication (probablement un peu des deux). L'autre inductance cependant nous a indiqué une tension de 2.5 V,
+signifiant une tension de 27.5 $\mu$H, ce qui est beaucoup plus réaliste.
+\newpage
+\begin{figure}[h]
+    \centering
+        \includegraphics[scale = 0.12]{oscillo_1.jpg}
+        \caption{Schéma de l'oscilloscope mesurant $V_{R}$, à l'échelle $0.5V$.}
+        \label{fig:my_label}
+\end{figure}
+\subsection{Circuit 2}
+Ce circuit était un peu plus compliqué à construire, dû à la nature volatile des fils de l'inductance, qui ont tendance à
+créer des faux contacts.
 \end{document}
