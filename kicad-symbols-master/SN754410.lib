@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SN754410
+#
+DEF SN754410 IC 0 40 Y N 1 L N
+F0 "IC" -401 701 50 H V L BNN
+F1 "SN754410" 200 -400 50 H V L BNN
+F2 "DIP16" 0 0 50 H I L BNN
+F3 "SN754410" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "the sn754410 is a quadruple high-current half-h driver designed to provide bidirectional drive currents up to 1 a at ..." 0 0 50 H I L BNN
+F6 "Texas Instruments" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 500 700 -400 700 N
+P 2 0 0 10 -400 700 -400 -300 N
+P 2 0 0 10 -400 -300 500 -300 N
+P 2 0 0 10 500 -300 500 700 N
+T 0 -150 -250 70 0 0 0 GND Normal 0 L B
+X P4 4 -200 -500 200 U 40 40 0 0 W 
+X P5 5 -100 -500 200 U 40 40 0 0 W 
+X P12 12 0 -500 200 U 40 40 0 0 W 
+X P13 13 100 -500 200 U 40 40 0 0 W 
+X VCC1 16 0 900 200 D 40 40 0 0 W 
+X VCC2 8 100 900 200 D 40 40 0 0 W 
+X EN1 1 -600 400 200 R 40 40 0 0 B 
+X SIG1A 2 -600 300 200 R 40 40 0 0 B 
+X SIG1B 7 -600 200 200 R 40 40 0 0 B 
+X M1A 3 -600 0 200 R 40 40 0 0 B 
+X M1B 6 -600 -100 200 R 40 40 0 0 B 
+X EN2 9 700 400 200 L 40 40 0 0 B 
+X SIG2A 15 700 300 200 L 40 40 0 0 B 
+X SIG2B 10 700 200 200 L 40 40 0 0 B 
+X M2A 14 700 0 200 L 40 40 0 0 B 
+X M2B 11 700 -100 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

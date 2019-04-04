@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PD
+#
+DEF PD D 0 40 Y Y 1 F N
+F0 "D" -50 -100 60 H V C CNN
+F1 "PD" -150 100 60 H V C CNN
+F2 "" -2200 300 60 H V C CNN
+F3 "" -2200 300 60 H V C CNN
+DRAW
+P 2 0 1 0  -60 70  -40 80 N
+P 2 0 1 0  -10 70  10 80 N
+P 2 0 1 0  0 50  0 -50 N
+P 3 0 1 0  -20 120  -60 70  -50 100 N
+P 3 0 1 0  30 120  -10 70  0 100 N
+P 4 0 1 0  0 0  -100 50  -100 -50  0 0 F
+X ~ 1 -250 0 150 R 50 50 1 1 I
+X ~ 2 150 0 150 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

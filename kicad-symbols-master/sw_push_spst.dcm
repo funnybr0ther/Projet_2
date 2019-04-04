@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_Push_SPST
+D Momentary Switch, single pole single throw
+K switch single-pole single-throw spst
+$ENDCMP
+#
+#End Doc Library

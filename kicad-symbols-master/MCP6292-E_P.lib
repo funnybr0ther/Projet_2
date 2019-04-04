@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCP6292-E/P
+#
+DEF MCP6292-E/P U 0 40 Y Y 1 L N
+F0 "U" -186 660 50 H V L BNN
+F1 "MCP6292-E/P" -221 -849 50 H V L BNN
+F2 "DIP254P762X432-8" 0 0 50 H I L BNN
+F3 "Operational amplifier; 10MHz; 2.4÷5.5VDC; Channels: 2; DIP8" 0 0 50 H I L BNN
+F4 "DIP-8 Microchip" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6292-E-P/MCP6292-E-P-ND/574102?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "Microchip" 0 0 50 H I L BNN
+F7 "MCP6292-E/P-ND" 0 0 50 H I L BNN
+F8 "MCP6292-E/P" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 -500 -700 N
+P 2 0 0 16 -500 -700 500 -700 N
+P 2 0 0 16 500 -700 500 500 N
+P 2 0 0 16 500 500 -500 500 N
+X VDD 8 -700 300 200 R 40 40 0 0 W 
+X VINA+ 3 -700 100 200 R 40 40 0 0 I 
+X VINA- 2 -700 0 200 R 40 40 0 0 I 
+X VINB+ 5 -700 -200 200 R 40 40 0 0 I 
+X VINB- 6 -700 -300 200 R 40 40 0 0 I 
+X VSS 4 -700 -500 200 R 40 40 0 0 W 
+X VOUTA 1 700 300 200 L 40 40 0 0 O 
+X VOUTB 7 700 200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
